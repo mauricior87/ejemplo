@@ -18,7 +18,7 @@ public class HelloController {
 	
 	@RequestMapping(value="/hello.thtm")
 	public ModelAndView handleRequest() throws ServletException, IOException{
-		logger.info("Returning hello view");
+		logger.info("Returning hola view");
 		
 		return new ModelAndView("hello.jps");
 	}
